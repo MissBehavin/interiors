@@ -98,7 +98,8 @@ function getKorrigan()
             end
         end
     end
-endfunction getBeechers()
+end
+function getBeechers()
     local interior = GetInteriorAtCoords(-1643.893, -1358.232, 86.4541)
     local isValid = IsValidInterior(interior)
     if isValid then
