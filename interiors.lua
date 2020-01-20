@@ -1,13 +1,34 @@
-AddEventHandler('playerSpawned', function(spawn)
-    getValJail()
-    getValBank()
-    getValSaloon()
-    getValSaloon2()
-    getValGenstore()
-    getKorrigan()
-    getBraManor()
-    getBronte()
-    getBeechers()
+local interiorsActive = false
+
+Citizen.CreateThread(function()
+    while true do
+    Citizen.Wait(5000)
+    local interior = GetInteriorAtCoords(-308.88, 777.37, 118.77)
+    local isValid = IsValidInterior(interior)
+        if interiorsActive == false then
+            if IsInteriorReady(interior) then
+                if IsInteriorEntitySetActive(interior, "val_bank_front_windows") then
+                    interiorsActive = true
+                    print('Interiors are already active.')
+                else
+                    getValJail()
+                    getValBank()
+                    getValSaloon()
+                    getValSaloon2()
+                    getValGenstore()
+                    getKorrigan()
+                    getBeechers()
+                    getBraManor()
+                    getBronte()
+                    interiorsActive = true
+                    print('Interiors are now active!')
+                end
+            end
+        else
+            print('Interiors are already active.')
+            break 
+        end
+    end
 end)
 
 function getValBank()
@@ -334,6 +355,12 @@ RemoveImap(1205945639) -- lumber pile main driveway in
 RemoveImap(1532774697) -- lumber pile main driveway in
 RemoveImap(-114633341) -- saw horse main driveway in
 RemoveImap(-90646166) -- floating saddle, hat, and rope in corral
+RemoveImap(1681117196) --pile of old lumber
+RemoveImap(-803019223) -- fire behind house
+RemoveImap(449426161) -- lantern
+RemoveImap(-999913940) -- lantern
+RemoveImap(-30541382) -- lantern
+RemoveImap(-960328988)  -- lantern
 
 -- GRASS and GROUND
 -- RequestImap(-1496619689) -- Green Ground 670 -1236 44
@@ -1298,15 +1325,9 @@ RequestImap(883152450)
 RequestImap(1736837788)
 RequestImap(1814624585)
 RequestImap(480644817)
-RemoveImap(1681117196)
-RemoveImap(-584332967)
-RemoveImap(449426161)
-RemoveImap(-999913940)
-RemoveImap(-30541382)
-RemoveImap(-960328988)
+RequestImap(-584332967)
 RequestImap(-392430949)
 RequestImap(-904669171)
-RemoveImap(-803019223)
 RemoveImap(-2093605706)
 RequestImap(531960211)
 RequestImap(537424819)
