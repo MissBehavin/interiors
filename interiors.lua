@@ -7,7 +7,7 @@ AddEventHandler('playerSpawned', function(spawn)
     getKorrigan()
     getBraManor()
     getBronte()
-    getCC()
+    getBeechers()
 end)
 
 function getValBank()
@@ -98,6 +98,22 @@ function getKorrigan()
             end
         end
     end
+endfunction getBeechers()
+    local interior = GetInteriorAtCoords(-1643.893, -1358.232, 86.4541)
+    local isValid = IsValidInterior(interior)
+    if isValid then
+        if IsInteriorReady(interior) then
+            if IsInteriorEntitySetActive(interior, "bee_01_house_fireplace_on") then
+                print("Riverboat Interior Already Active")
+            else
+                ActivateInteriorEntitySet(interior, "bee_01_masterBR_bed01")
+                ActivateInteriorEntitySet(interior, "Beechers_decorated_after_Abigail3")
+                ActivateInteriorEntitySet(interior, "IntGrp_livingrm_furniture_basic")
+                ActivateInteriorEntitySet(interior, "bee_01_house_fireplace_on")
+                print("Riverboat Interior Activated")
+            end
+        end
+    end
 end
 function getBronte()
     local interior = GetInteriorAtCoords(2385.548, -1221.158, 46.1729)
@@ -125,8 +141,8 @@ end
 
 RequestImap(-661560211) -- Barrels Everywhere?
 RequestImap(-1933617196) -- Structure in front of gunsmith?
-RequestImap(1202020135)  -- Flags East and West?
-RequestImap(924412185) -- something small in front of law offices?
+-- RequestImap(1202020135)  -- Blank Banners across mainstreet
+
 RequestImap(-892659042) -- Leatherworker on west side of encampment
 RequestImap(-1588793465) -- Structure in front of motel?
 RequestImap(1186533019) -- Chair in front of Law Offices
@@ -147,8 +163,8 @@ RequestImap(-554932707) -- Something regarding the general store
 -- RequestImap(824748066)  -- Event Marker Western side of town along path ( -229.93, 946.05, 138.33 )
 
 --------------------------------                                   ############# -- Valentine Necessities -- ###############                                       ----------------------
--- RequestImap(774477221) -- Valentine Sheriff's Office Crumbled Wall parts...
--- RequestImap(1097534152) -- Valentine Sheriffs Office Outer wall damaged ...
+RemoveImap(774477221) -- Valentine Sheriff's Office Crumbled Wall parts...
+RequestImap(1097534152) -- Valentine Sheriffs Office Outer wall
 -- RequestImap(2095116685) -- supplies/boxes in mainstreet front of General Store, Saloon, Green building
 RequestImap(192173299) -- Valentine -- Support Beams and signs -- Mainstreet Saloon
 -- RequestImap(1081087978) -- Valentine -- Green Building and Restaurant mainstreet - Pre-paint, almost completed stage. (Help wanted sign) -- https://gyazo.com/b4d1f0b57d17c470e7db030f050db1c0     (Do Not Load Both(1/2))
@@ -171,6 +187,7 @@ RequestImap(-761186147)  --Green House Valentine -- Exterior Trees and Flowers 2
 -- RequestImap(-1301569116) -- Valentine -- Sheriffs Office boarded up
 --------------------------------                                   ############# -- Valentine Mainstreet Law Offices     -- ###############                                       ----------------------
 -- RequestImap(-52140817)   -- Valentine -- Law Office Boarded Up
+RequestImap(924412185) -- Law offices (REMOVE FOR structural damage)
 --------------------------------                                   ############# -- Valentine Mainstreet Hotel           -- ###############                                       ----------------------
 -- RequestImap(-780819048)  -- Valentine -- Hotel Boarded Up
 --------------------------------                                   ############# -- Valentine Mainstreet Bank            -- ###############                                       ----------------------
@@ -229,6 +246,94 @@ RequestImap(-1112373128)  --Oil Tower
 RequestImap(1277540472)  -- 1433 -1591 69
 ------------------------------------- #### END OF WOMAN'S RIGHTS ####
 
+------------------------------------- #### BEECHERS ####
+RequestImap(1353861354) -- Beechers - Barn interior, lanterns and doors
+RemoveImap(611701601) -- Beechers Barn - Work supplies
+RemoveImap(901412334) -- Beechers Barn - Work supplies
+RemoveImap(703356498) -- Beechers Barn - Work supplies
+RemoveImap(-650822431) -- Beechers Barn - Work supplies
+RequestImap(-956131204) -- Beechers Barn exterior and fencing
+RemoveImap(2006257967)
+RemoveImap(-2008632686)
+RemoveImap(-1615103170)
+RequestImap(578474998) -- Beechers border fencing
+RequestImap(-1860722801) -- Gazebo
+RemoveImap(-692583342)
+RemoveImap(-669282002)
+RemoveImap(-1355464862)
+RemoveImap(-1141450523)
+RemoveImap(-252820785)
+RemoveImap(258899919)
+RemoveImap(-767883927)
+RemoveImap(-535715562) -- Scaffolding // remove when completed
+RequestImap(931647489) -- Beechers interior
+RequestImap(1467774743) -- Beechers Interior
+RemoveImap(2030594491) -- Construction materials
+RemoveImap(-790660125)
+RemoveImap(33260939) -- Beechers construction supplies
+RemoveImap(780653384) -- Beechers construction supplies
+RemoveImap(180676027) -- Beechers construction supplies
+RemoveImap(-270212770) -- Beechers construction supplies
+RemoveImap(-211623797) -- Beechers construction supplies
+RemoveImap(862349416) -- Beechers construction supplies
+RemoveImap(699225334) -- Beechers construction supplies  -- Roof going on
+RequestImap(411742897) -- Completed exterior
+RequestImap(349494711) -- clothes line, wagon wheel,
+RemoveImap(-706105482) -- crate on deck by window
+RemoveImap(176369335) -- old windows from previous shack
+RequestImap(2087181890)
+RemoveImap(637627640)
+RemoveImap(44077654) -- support beam - construction
+RemoveImap(839872819) -- support beam - construction
+RemoveImap(-1656895602) -- support beam - construction
+RemoveImap(-583969090)
+RemoveImap(-364121869)
+RemoveImap(-1073832871)
+RemoveImap(-1786558629)
+RemoveImap(-1548753996)
+RemoveImap(-1784133719)
+RemoveImap(-1667461262)
+RequestImap(1757739778)
+RequestImap(-2029237844)
+RequestImap(-2000794023)
+RequestImap(-531137142)
+RequestImap(5422464)
+RemoveImap(203845253) -- Silo construction materials
+RemoveImap(-1658679165) -- Silo construction base and materials
+RemoveImap(258733332) -- Silo construction base and materials
+RemoveImap(79028136) -- Silo construction base and materials
+RequestImap(-218940381) -- Silo completed
+RemoveImap(634752926) -- chairs and construction supplies
+RemoveImap(984271748) -- chairs and construction supplies
+RemoveImap(43335376)
+RemoveImap(1444950942) -- green wagon side of house/clipping -- full of bricks
+RemoveImap(910783469) -- green wagon side of house/clipping -- full of bricks
+RemoveImap(727408145) -- green wagon front of house/clipping -- full of bricks
+RemoveImap(429636242) -- pile of wood north side of house -- construction materials
+RemoveImap(-19364596) -- pile of wood north side of house -- construction materials
+RemoveImap(2131035495) -- green wagon side of house/clipping -- full of bricks
+RequestImap(1236917971) -- Outhouse
+RemoveImap(-316448350) -- construction materials
+RemoveImap(-496874464) -- construction materials
+RemoveImap(-794515291) -- construction materials
+RemoveImap(275588949) -- construction materials
+RemoveImap(-52330434) -- construction materials
+RemoveImap(-2131457946)  -- construction materials
+RemoveImap(1819926822) -- interior framing -- construction
+RemoveImap(1529593482) -- interior framing -- construction
+RemoveImap(-668911501) -- framing, remove when exterior is up.
+RemoveImap(-1012618146) -- old structure
+RemoveImap(2111816145) -- old structure rubble
+RemoveImap(-722030448) -- old structure
+RemoveImap(-974480336) -- canvas gazebos
+RemoveImap(197447134) -- canvas gazebo north, wagon, and supplies
+RequestImap(-918785150) -- firepit seating
+RemoveImap(1256771838) -- wagon wreckage in cropfield
+RemoveImap(1205945639) -- lumber pile main driveway in
+RemoveImap(1532774697) -- lumber pile main driveway in
+RemoveImap(-114633341) -- saw horse main driveway in
+RemoveImap(-90646166) -- floating saddle, hat, and rope in corral
+
 -- GRASS and GROUND
 -- RequestImap(-1496619689) -- Green Ground 670 -1236 44
 RequestImap(-61896664) -- Worn Brown Ground 670 -1236 44
@@ -239,6 +344,7 @@ RequestImap(519091847)  -- Version 4 of Grass and Ferns
 RequestImap(-1225606266) -- Adds bush to 692 -1263 44
 RequestImap(-1874720370) -- Lots of ferns, weeds and tall grass
 RequestImap(-1936937394) -- Grass, Flowers and weeds]]
+
 
 -- German Guys Wagon
 -- RequestImap(-1123811713) -- Wagon v1  657 -1231 44
@@ -432,7 +538,7 @@ RequestImap(58066174)  -- Interior
 -- RequestImap(-437251660)  -- House of Fire Flames
 
 -- Mansion Exterior 
--- RequestImap(-1220264217)  -- Shrubs and Bushes
+-- RequestImap(-1220264217)  -- Shurbs and Bushes
 -- RequestImap(-1508467572) -- Ferns Bushes Weeds Overgrown (Use with Burned Down Version of House)
 -- RequestImap(-990258606) -- Small Trees
 RequestImap(1944013855) -- Add Open Shudders Upstairs Bed Room and Downstairs Library
@@ -1190,103 +1296,17 @@ RequestImap(-299265919)
 RequestImap(883152450)
 RequestImap(1736837788)
 RequestImap(1814624585)
-RequestImap(1353861354)
-RequestImap(611701601)
-RequestImap(901412334)
-RequestImap(703356498)
-RequestImap(-650822431)
-RequestImap(-956131204)
-RequestImap(2006257967)
-RequestImap(-2008632686)
-RequestImap(-1615103170)
-RequestImap(578474998)
-RequestImap(-1860722801)
-RequestImap(-692583342)
-RequestImap(-669282002)
-RequestImap(-1355464862)
-RequestImap(-1141450523)
-RequestImap(-252820785)
-RequestImap(258899919)
-RequestImap(-767883927)
-RequestImap(-535715562)
-RequestImap(931647489)
-RequestImap(1467774743)
-RequestImap(2030594491)
-RequestImap(-790660125)
-RequestImap(33260939)
-RequestImap(780653384)
-RequestImap(180676027)
-RequestImap(-270212770)
-RequestImap(-211623797)
-RequestImap(862349416)
-RequestImap(699225334)
-RequestImap(411742897)
-RequestImap(349494711)
-RequestImap(-706105482)
-RequestImap(176369335)
-RequestImap(2087181890)
-RequestImap(637627640)
-RequestImap(44077654)
-RequestImap(839872819)
-RequestImap(-1656895602)
-RequestImap(-583969090)
-RequestImap(-364121869)
-RequestImap(-1073832871)
-RequestImap(-1786558629)
-RequestImap(-1548753996)
-RequestImap(-1784133719)
-RequestImap(-1667461262)
-RequestImap(1236917971)
-RequestImap(1757739778)
-RequestImap(-2029237844)
-RequestImap(-2000794023)
-RequestImap(-531137142)
-RequestImap(5422464)
-RequestImap(203845253)
-RequestImap(-1658679165)
-RequestImap(258733332)
-RequestImap(79028136)
-RequestImap(-218940381)
-RequestImap(634752926)
-RequestImap(984271748)
-RequestImap(43335376)
-RequestImap(1444950942)
-RequestImap(910783469)
-RequestImap(727408145)
-RequestImap(429636242)
-RequestImap(-19364596)
-RequestImap(2131035495)
-RequestImap(-316448350)
-RequestImap(-496874464)
-RequestImap(-794515291)
-RequestImap(275588949)
-RequestImap(-52330434)
-RequestImap(-2131457946)
-RequestImap(1819926822)
-RequestImap(1529593482)
-RequestImap(-668911501)
 RequestImap(480644817)
-RequestImap(1681117196)
-RequestImap(-1012618146)
-RequestImap(2111816145)
-RequestImap(-722030448)
-RequestImap(-974480336)
-RequestImap(197447134)
-RequestImap(-918785150)
-RequestImap(1256771838)
-RequestImap(-584332967)
-RequestImap(449426161)
-RequestImap(-999913940)
-RequestImap(-30541382)
-RequestImap(-960328988)
+RemoveImap(1681117196)
+RemoveImap(-584332967)
+RemoveImap(449426161)
+RemoveImap(-999913940)
+RemoveImap(-30541382)
+RemoveImap(-960328988)
 RequestImap(-392430949)
 RequestImap(-904669171)
-RequestImap(1205945639)
-RequestImap(1532774697)
-RequestImap(-803019223)
-RequestImap(-2093605706)
-RequestImap(-114633341)
-RequestImap(-90646166)
+RemoveImap(-803019223)
+RemoveImap(-2093605706)
 RequestImap(531960211)
 RequestImap(537424819)
 RequestImap(-1613262779)
