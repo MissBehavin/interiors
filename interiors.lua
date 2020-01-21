@@ -126,13 +126,13 @@ function getBeechers()
     if isValid then
         if IsInteriorReady(interior) then
             if IsInteriorEntitySetActive(interior, "bee_01_house_fireplace_on") then
-                print("Riverboat Interior Already Active")
+                print("Beechers Interior Already Active")
             else
                 ActivateInteriorEntitySet(interior, "bee_01_masterBR_bed01")
                 ActivateInteriorEntitySet(interior, "Beechers_decorated_after_Abigail3")
                 ActivateInteriorEntitySet(interior, "IntGrp_livingrm_furniture_basic")
                 ActivateInteriorEntitySet(interior, "bee_01_house_fireplace_on")
-                print("Riverboat Interior Activated")
+                print("Beechers Interior Activated")
             end
         end
     end
