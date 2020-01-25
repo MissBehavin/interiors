@@ -14,7 +14,6 @@ Citizen.CreateThread(function()
                     getValJail()
                     getValBank()
                     getValSaloon()
-                    getValSaloon2()
                     getValGenstore()
                     getKorrigan()
                     getBeechers()
@@ -57,19 +56,6 @@ function getValSaloon()
             else
                 ActivateInteriorEntitySet(interior, "front_windows")
                 ActivateInteriorEntitySet(interior, "val_saloon_br03_bed")
-                print("Valentine Saloon Interior Activated")
-            end
-        end
-    end
-end
-function getValSaloon2()
-    local interior = GetInteriorAtCoords(-306.48, 803.07, 118.97)
-    local isValid = IsValidInterior(interior)
-    if isValid then
-        if IsInteriorReady(interior) then
-            if IsInteriorEntitySetActive(interior, "6_chair_poker_set") then
-                print("Valentine Saloon Interior Already Active")
-            else
                 ActivateInteriorEntitySet(interior, "6_chair_poker_set")
                 print("Valentine Saloon Interior Activated")
             end
