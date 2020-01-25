@@ -625,6 +625,106 @@ RequestImap(-515396642) -- Jail Cell Window Fixed
 -- RequestImap(1291083725) -- Window Debris
 ------------------------------------- #### END OF STRAWBERRY ####
 
+----------------------- Saint Denis Doctor office
+-- RequestImap(-473077489) -- Doors (fixes hole) no interior
+RequestImap(619024057) -- full interior with doors
+------------------------------------- #### END OF SAINT DENIS DOCTOR OFFICE ####
+
+----------------------- Casino boat
+RequestImap(-614421509) -- boat shell
+RequestImap(604920544)  -- upstairs interior
+RequestImap(1382135686) -- main room interior
+RequestImap(-1968130469) -- railings
+RequestImap(-276259505) -- railings
+------------------------------------- #### END OF CASINO ####
+
+----------------------- ferry boat
+RequestImap(-723094901)
+------------------------------------- #### END OF FERRY BOAT ####
+
+
+----------------------- Beechers field
+-- RequestImap(1929454697) -- beechers field side rows of some medium crop
+-- RequestImap(1649902358) -- beechers field side rows of some small crop
+-- RequestImap(1864768904) -- beechers field crops in middle
+-- RequestImap(938290967)  -- beechers field crops in middle
+-- RequestImap(1169279648) -- beechers field crops in middle
+-- RequestImap(-284612948) -- beechers field tilled field
+RequestImap(-1765152778) -- beechers field logs laying in 
+RequestImap(-2072231077) -- beechers field plants over area
+RequestImap(-1253110600) -- beechers field hole in ground fix
+------------------------------------- #### END OF BEECHERS FIELD ####
+
+----------------------- hole at -1627.81, 224.5, 106.45
+RequestImap(1861460906)
+------------------------------------- #### END OF HOLE AT -1627.81, 224.5, 106.45 ####
+
+----------------------- farm with hole in ground next to W in West Elizabeth 
+RequestImap(-928367655)
+RequestImap(890107948)
+RequestImap(1153046408)
+RequestImap(1634621556)
+RequestImap(-243627670)
+RequestImap(38567760)
+RequestImap(-1954278106)
+RequestImap(-947200121)
+RequestImap(629362551)
+RequestImap(-786579336)
+RequestImap(-1305545118)
+RequestImap(-825836321) -- ground
+RequestImap(446554495) -- ground
+RequestImap(-262959893) -- ground
+RequestImap(-735136865) -- ground
+RequestImap(-868830916)
+RequestImap(764025611)
+-- RequestImap(1802934313) --trees
+-- RequestImap(607468222) --shrubs
+-- RequestImap(2108112010) --trees
+-- RequestImap(1208537422) --trees
+-- RequestImap(361734047) -- trees
+-- RequestImap(-1552951782) --trees
+-- RequestImap(1391886974) -- plants
+-- RequestImap(-1142569437) -- plants
+-- RequestImap(474113610) -- plants
+-- RequestImap(1298607560)
+-- RequestImap(-297340751) -- small pines
+RequestImap(-1079295176)
+RequestImap(1271713904)
+RequestImap(1423681694)
+RequestImap(1293624693)
+RequestImap(-1305406402)
+RequestImap(1983816160)
+RequestImap(-602816690)
+RequestImap(636278554)
+RequestImap(-285245562)
+RequestImap(1031662866)
+RequestImap(-1041976064)
+RequestImap(1221694281)
+RequestImap(1036815507)
+RequestImap(775893260)
+RequestImap(-329355129)
+-- RequestImap(2117211184) --fence
+-- RequestImap(-1042390616) -- barn interior
+-- RequestImap(-118700196) --props outside
+RequestImap(991016631)
+RequestImap(57105576)
+RequestImap(238757788)
+RequestImap(927020127)
+RequestImap(1388161943)
+RequestImap(-7594117)
+RequestImap(-1680050035)
+RequestImap(41398635)
+RequestImap(462263849)
+RequestImap(1422134667)
+RequestImap(1263244828)
+RequestImap(-1813544782)
+RequestImap(1008375999)
+RequestImap(117485200)
+RequestImap(-188216801)
+RequestImap(-2047539266)
+RequestImap(1053919002)
+------------------------------------- #### end farm with hole in ground next to W in West Elizabeth ####
+
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -1093,40 +1193,6 @@ RequestImap(-1848077772)
 RequestImap(-3789307)
 RequestImap(1368296489)
 RequestImap(-436084091)
-RequestImap(1271713904)
-RequestImap(1423681694)
-RequestImap(1293624693)
-RequestImap(-1305406402)
-RequestImap(1983816160)
-RequestImap(-602816690)
-RequestImap(636278554)
-RequestImap(-285245562)
-RequestImap(1031662866)
-RequestImap(-1041976064)
-RequestImap(1221694281)
-RequestImap(1036815507)
-RequestImap(775893260)
-RequestImap(-329355129)
-RequestImap(2117211184)
-RequestImap(-1042390616)
-RequestImap(-118700196)
-RequestImap(991016631)
-RequestImap(57105576)
-RequestImap(238757788)
-RequestImap(927020127)
-RequestImap(1388161943)
-RequestImap(-7594117)
-RequestImap(-1680050035)
-RequestImap(41398635)
-RequestImap(462263849)
-RequestImap(1422134667)
-RequestImap(1263244828)
-RequestImap(-1813544782)
-RequestImap(1008375999)
-RequestImap(117485200)
-RequestImap(-188216801)
-RequestImap(-2047539266)
-RequestImap(1053919002)
 RequestImap(-1754970007)
 RequestImap(1364276294)
 RequestImap(-1194012756)
@@ -1891,7 +1957,6 @@ RequestImap(1157695860)
 RequestImap(1859948183)
 RequestImap(-1688366042)
 RequestImap(-929277449)
-RequestImap(-723094901)
 RequestImap(-801609437)
 RequestImap(-278745837)
 RequestImap(-41173958)
@@ -2022,11 +2087,6 @@ RequestImap(-1593790123)
 RequestImap(-595698218)
 RequestImap(-1269989522)
 RequestImap(-1995815064)
-RequestImap(-614421509)
-RequestImap(604920544)
-RequestImap(1382135686)
-RequestImap(-1968130469)
-RequestImap(-276259505)
 RequestImap(-1716205818)
 RequestImap(728046625)
 RequestImap(350100475)
@@ -2151,36 +2211,6 @@ RequestImap(202086482)
 RequestImap(-87394864)
 RequestImap(1473078398)
 RequestImap(-421457898)
-RequestImap(-928367655)
-RequestImap(890107948)
-RequestImap(1153046408)
-RequestImap(1634621556)
-RequestImap(-243627670)
-RequestImap(38567760)
-RequestImap(-1954278106)
-RequestImap(-947200121)
-RequestImap(629362551)
-RequestImap(-786579336)
-RequestImap(-1305545118)
-RequestImap(-825836321)
-RequestImap(446554495)
-RequestImap(-262959893)
-RequestImap(-735136865)
-RequestImap(-868830916)
-RequestImap(764025611)
-RequestImap(1802934313)
-RequestImap(607468222)
-RequestImap(2108112010)
-RequestImap(1208537422)
-RequestImap(361734047)
-RequestImap(-1552951782)
-RequestImap(1391886974)
-RequestImap(-1142569437)
-RequestImap(474113610)
-RequestImap(1298607560)
-RequestImap(-297340751)
-RequestImap(-1079295176)
-RequestImap(1861460906)
 RequestImap(1044079550)
 RequestImap(894787561)
 RequestImap(-689352221)
@@ -2273,16 +2303,8 @@ RequestImap(276582710)
 RequestImap(1977031606)
 RequestImap(-2021605623)
 RequestImap(1191890045)
-RequestImap(1929454697)
-RequestImap(1649902358)
-RequestImap(1864768904)
-RequestImap(938290967)
-RequestImap(1169279648)
-RequestImap(-1765152778)
-RequestImap(-2072231077)
 RequestImap(19217583)
 RequestImap(-284612948)
-RequestImap(-1253110600)
 RequestImap(-846230557)
 RequestImap(-1614141377)
 RequestImap(-926795318)
@@ -2442,7 +2464,6 @@ RequestImap(-276524767)
 RequestImap(728046625)
 RequestImap(-1986209836)
 RequestImap(-929277449)
-RequestImap(-723094901)
 RequestImap(-801609437)
 RequestImap(-414301703)
 RequestImap(1423912753)
