@@ -725,6 +725,30 @@ RequestImap(-2047539266)
 RequestImap(1053919002)
 ------------------------------------- #### end farm with hole in ground next to W in West Elizabeth ####
 
+----------------------- Fantana Theatre Saint Denis
+RequestImap(-1667265438) -- signs on building 1
+--RequestImap(175578406)  -- signs on building 2
+--RequestImap(1137646647) -- fantana doors (fills hole)
+RequestImap(-898081380) -- fantana theatre interior
+-- RequestImap(-468635897) -- sign option 1 out front (advertisement)
+-- RequestImap(-771786794) -- sign option 2 picture
+-- RequestImap(-626641013) -- sign option 3 scull
+-- RequestImap(1088045886) -- sign option 4 (advertisement)
+-- RequestImap(-1678761663) -- sign option 5 (advertisement)
+-- RequestImap(535384482) -- sign option 6 (advertisement)
+-- RequestImap(1724413302) -- sign option 7 (advertisement)
+RequestImap(-1267247536) -- sign option 8 (advertisement)
+------------------------------------- #### END Fantana Theatre Saint Denis ####
+
+----------------------- Prison
+RequestImap(350100475) --Cellar doors
+------------------------------------- #### END Prison ####
+
+----------------------- Hotel Chevalier
+-- RequestImap(481139295)  -- scaffolding and grand opening soon sing
+RequestImap(-274080837) -- fixed hole in wall
+------------------------------------- #### END Hotel Chevalier ####
+
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -1977,24 +2001,10 @@ RequestImap(-516683274)
 RequestImap(-1004522372)
 RequestImap(281772765)
 RequestImap(-2084311522)
-RequestImap(-1667265438)
-RequestImap(175578406)
-RequestImap(1137646647)
-RequestImap(-898081380)
-RequestImap(-468635897)
-RequestImap(-771786794)
-RequestImap(-626641013)
-RequestImap(1088045886)
-RequestImap(-1678761663)
-RequestImap(535384482)
-RequestImap(1724413302)
-RequestImap(-1267247536)
 RequestImap(489834626)
 RequestImap(-1360840312)
 RequestImap(1628286919)
 RequestImap(-704461521)
-RequestImap(481139295)
-RequestImap(-274080837)
 RequestImap(1082980257)
 RequestImap(-1725465949)
 RequestImap(1821956151)
@@ -2089,7 +2099,6 @@ RequestImap(-1269989522)
 RequestImap(-1995815064)
 RequestImap(-1716205818)
 RequestImap(728046625)
-RequestImap(350100475)
 RequestImap(2033090463)
 RequestImap(826576088)
 RequestImap(1713084298)
