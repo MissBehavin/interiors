@@ -749,6 +749,21 @@ RequestImap(350100475) --Cellar doors
 RequestImap(-274080837) -- fixed hole in wall
 ------------------------------------- #### END Hotel Chevalier ####
 
+----------------------- House interior 1119 481.74 96
+RequestImap(-787042507)
+------------------------------------- #### END House interior ####
+
+----------------------- Patch hole in building -1860, -1722, 109.25
+RequestImap(-1696865897)
+------------------------------------- #### END Patch hole in building ####
+
+----------------------- Missing cabin -2376.0, -1590.96, 156.0
+RequestImap(-1387511711) -- shell
+RequestImap(1901132483) -- interior
+-- RequestImap(-2082345587) -- onfire
+-- RequestImap(-715865581) -- fallen tree
+------------------------------------- #### END Missing cabin ####
+
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -1331,7 +1346,6 @@ RequestImap(-910880980)
 RequestImap(382484708)
 RequestImap(-411006854)
 RequestImap(1133453602)
-RequestImap(-787042507)
 RequestImap(350637317)
 RequestImap(1968676233)
 RequestImap(2112594812)
@@ -1422,7 +1436,6 @@ RequestImap(-1439987356)
 RequestImap(-1126224181)
 RequestImap(-1956194332)
 RequestImap(945532872)
-RequestImap(-1696865897)
 RequestImap(-890895654)
 RequestImap(1953646620)
 RequestImap(1299817544)
@@ -1441,10 +1454,6 @@ RequestImap(1924458218)
 RequestImap(966418260)
 RequestImap(-432154242)
 RequestImap(500829173)
-RequestImap(-1387511711)
-RequestImap(1901132483)
-RequestImap(-2082345587)
-RequestImap(-715865581)
 RequestImap(77337110)
 RequestImap(2029194243)
 RequestImap(-1125782227)
