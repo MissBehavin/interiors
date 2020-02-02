@@ -758,12 +758,21 @@ RequestImap(-1696865897)
 ------------------------------------- #### END Patch hole in building ####
 
 ----------------------- Missing cabin -2376.0, -1590.96, 156.0
+
 RequestImap(-1387511711) -- shell
 RequestImap(1901132483) -- interior
 -- RequestImap(-2082345587) -- onfire
 -- RequestImap(-715865581) -- fallen tree
 ------------------------------------- #### END Missing cabin ####
 
+-- RequestImap(1879779330)  -- sign outside tent version 1
+-- RequestImap(1104143966)  -- sign outside tent version 2
+-- RequestImap(1027093524)  -- sign outside tent version 3
+RequestImap(-1617847332) -- sign outside tent version 4
+-- RequestImap(-763477089)  -- partial door flap open
+-- RequestImap(317070801)   -- full closed flap
+
+------------------------------------- #### END Traveling Magic Lantern Show -- Valentine --####
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -786,12 +795,6 @@ RequestImap(-1781246069)
 RequestImap(610256856)
 RequestImap(-2083943324)
 RequestImap(-159723514)
-RequestImap(1879779330)
-RequestImap(1104143966)
-RequestImap(-763477089)
-RequestImap(317070801)
-RequestImap(1027093524)
-RequestImap(-1617847332)
 RequestImap(-1801047945)
 RequestImap(-590227673)
 RequestImap(1936501508)
