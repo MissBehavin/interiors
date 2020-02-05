@@ -1,25 +1,23 @@
 # interiors
---Fix missing interiors in RedM
+Fix missing interiors in RedM
 --
---Known issues:
+Known issues:
 --
---Valentine:
+Valentine:
+General store support beams
+
+Beechers:
+
+Missing Dining Room Table
+Missing Kitchen Counter
+
+Contributions from:
 --
---General store support beams
---
---
---Beechers:
---Missing Dining Room Table
---
---Missing Kitchen Counter
---
---
---
---
---
---Contributions from:
---
---koil              -- Original IPL list
---CryptoGenics      -- list research/identification
---PitchSean         -- list research/identification
---Plouffe           -- list research/identification
+koil              Original IPL list
+
+CryptoGenics      list research/identification
+
+PitchSean          list research/identification
+
+Plouffe            list research/identification
+
