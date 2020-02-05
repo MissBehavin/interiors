@@ -771,8 +771,55 @@ RequestImap(1901132483) -- interior
 RequestImap(-1617847332) -- sign outside tent version 4
 -- RequestImap(-763477089)  -- partial door flap open
 -- RequestImap(317070801)   -- full closed flap
-
 ------------------------------------- #### END Traveling Magic Lantern Show -- Valentine --####
+
+----------------------------------------- ### Armadillo Fires ### Southwest
+-- RequestImap(-1745210725) -- SW add debris
+-- RequestImap(-1096712211) -- SW add debris
+-- RequestImap(-1941005496) -- SW add debris
+-- RequestImap(1898267848)  -- SW add ember
+-- RequestImap(974280355)   -- SW add ember
+-- RequestImap(1756181464)  -- SW add ember
+-- RequestImap(-816857367)  -- SW add ember
+-- RequestImap(-72482077)   -- SW add flame
+-- RequestImap(-1122265410) -- SW add flame
+-- RequestImap(-935952905)  -- SW add flame
+-- RequestImap(1309948033)  -- SW add flame
+-- RequestImap(1941336822)  -- SW add flame
+-- RequestImap(712371053)   -- SW add flame
+-- RequestImap(1710282603)  -- SW add flame
+-- RequestImap(574303518)   -- SW add charred ground
+-- RequestImap(-752772715)  -- SW add smoke
+-- RequestImap(503623514)   -- SW add smoke
+-- RequestImap(-407026996)  -- SW add smoke
+----------------------------------------- ### Armadillo Fires ### Northeast
+-- RequestImap(-1029093195) -- NE add debris
+-- RequestImap(-1325390493) -- NE add debris
+-- RequestImap(-1622834706) -- NE add debris?
+-- RequestImap(257582350)   -- NE add ember
+-- RequestImap(-39730787)   -- NE add ember
+-- RequestImap(-1438901569) -- NE add ember
+-- RequestImap(-772691681)  -- NE add flame
+-- RequestImap(-2110850686) -- NE add flame
+-- RequestImap(-1142062162) -- NE add Flame
+-- RequestImap(32078073)    -- NE add flame
+-- RequestImap(1011350990)  -- NE add flame
+-- RequestImap(1007204499)  -- NE add flame
+-- RequestImap(705321299)   -- NE add flame
+----------------------------------------- ### Armadillo Fires ### Southeast
+-- RequestImap(-1725439174) -- SE add ember
+-- RequestImap(-1443390498) -- SE add debris
+-- RequestImap(689576469)   -- SE add debris
+-- RequestImap(-1750010031) -- SE add debris
+-- RequestImap(1857654366)  -- SE add ember
+-- RequestImap(2095655613)  -- SE add ember
+-- RequestImap(1049317994)  -- SE add flame
+-- RequestImap(-820561187)  -- SE add flame
+-- RequestImap(-280121448)  -- SE add flame
+-- RequestImap(-1268841107) -- SE add flame
+-- RequestImap(-279038963)  -- SE add flame
+-- RequestImap(2087785010)  -- SE add flame
+----------------------------------------- ### END ARMADILLO FIRES ###
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -2150,25 +2197,7 @@ RequestImap(1873580721)
 RequestImap(1706906210)
 RequestImap(2094371528)
 RequestImap(1688216398)
-RequestImap(-1745210725)
-RequestImap(-1096712211)
-RequestImap(-1941005496)
-RequestImap(1898267848)
-RequestImap(974280355)
-RequestImap(1756181464)
-RequestImap(-816857367)
-RequestImap(-72482077)
-RequestImap(-1122265410)
-RequestImap(-935952905)
-RequestImap(1309948033)
-RequestImap(1941336822)
-RequestImap(712371053)
-RequestImap(1710282603)
 RequestImap(-1802096589)
-RequestImap(574303518)
-RequestImap(-752772715)
-RequestImap(503623514)
-RequestImap(-407026996)
 RequestImap(669655585)
 RequestImap(-58196573)
 RequestImap(-895099271)
@@ -2177,31 +2206,6 @@ RequestImap(364962188)
 RequestImap(556610581)
 RequestImap(-1394479903)
 RequestImap(-786679704)
-RequestImap(-1029093195)
-RequestImap(-1325390493)
-RequestImap(-1622834706)
-RequestImap(-1443390498)
-RequestImap(689576469)
-RequestImap(-1750010031)
-RequestImap(257582350)
-RequestImap(-39730787)
-RequestImap(-1438901569)
-RequestImap(-1725439174)
-RequestImap(1857654366)
-RequestImap(2095655613)
-RequestImap(-772691681)
-RequestImap(-2110850686)
-RequestImap(-1142062162)
-RequestImap(32078073)
-RequestImap(1011350990)
-RequestImap(1007204499)
-RequestImap(705321299)
-RequestImap(1049317994)
-RequestImap(-820561187)
-RequestImap(-280121448)
-RequestImap(-1268841107)
-RequestImap(-279038963)
-RequestImap(2087785010)
 RequestImap(161441935)
 RequestImap(-596115807)
 RequestImap(112916013)
