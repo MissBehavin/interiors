@@ -806,6 +806,10 @@ RequestImap(-1617847332) -- sign outside tent version 4
 -- RequestImap(1011350990)  -- NE add flame
 -- RequestImap(1007204499)  -- NE add flame
 -- RequestImap(705321299)   -- NE add flame
+-- RequestImap(34346755)    -- NE smoke
+-- RequestImap(482102371)   -- NE smoke
+-- RequestImap(-502343927)  -- NE smoke
+-- RequestImap(112916013)   -- NE add charred ground
 ----------------------------------------- ### Armadillo Fires ### Southeast
 -- RequestImap(-1725439174) -- SE add ember
 -- RequestImap(-1443390498) -- SE add debris
@@ -819,6 +823,11 @@ RequestImap(-1617847332) -- sign outside tent version 4
 -- RequestImap(-1268841107) -- SE add flame
 -- RequestImap(-279038963)  -- SE add flame
 -- RequestImap(2087785010)  -- SE add flame
+-- RequestImap(161441935)   -- SE add flame
+-- RequestImap(-1603458673) -- SE add charred ground
+-- RequestImap(1065585604)  -- SE smoke
+-- RequestImap(-175048740)  -- SE smoke
+-- RequestImap(-482127039)  -- SE smoke
 ----------------------------------------- ### END ARMADILLO FIRES ###
 RequestImap(666617953)
 RequestImap(-1892595931) 
@@ -2206,16 +2215,7 @@ RequestImap(364962188)
 RequestImap(556610581)
 RequestImap(-1394479903)
 RequestImap(-786679704)
-RequestImap(161441935)
 RequestImap(-596115807)
-RequestImap(112916013)
-RequestImap(-1603458673)
-RequestImap(34346755)
-RequestImap(482102371)
-RequestImap(-502343927)
-RequestImap(1065585604)
-RequestImap(-175048740)
-RequestImap(-482127039)
 RequestImap(1557698400)
 RequestImap(-1484676996)
 RequestImap(472339111)
