@@ -1,3 +1,6 @@
+--------- ### Problem IPLs ###
+-- RequestImap(174727090)  -- Unknown, possibly causing CTDs
+--
 local interiorsActive = false
 
 Citizen.CreateThread(function()
@@ -2348,7 +2351,6 @@ RequestImap(-2116397290)
 RequestImap(-922917541)
 RequestImap(1524580507)
 RequestImap(204481342)
-RequestImap(174727090)
 RequestImap(-1466172032)
 RequestImap(-981873755)
 RequestImap(2013143748)
