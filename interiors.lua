@@ -844,6 +844,17 @@ RequestImap(-1377975054) -- ground trail to house
 -- RequestImap(-1965378386) -- grass over hole
 ------------------------------------- #### END Hole/cabin east of emerald station --####
 
+--------------------- Valentine extras
+RequestImap(886997475) -- bounty board
+RequestImap(325677491) --  white sign gunshop
+RequestImap(1936501508) -- big old sign gunshop
+RequestImap(-2083943324) -- debris infront of liqour
+RequestImap(610256856) -- debris and remodle next to liqour
+RequestImap(1804593020) -- barrels on sheriff step
+RequestImap(-1905652203) -- bench infront of gunshop
+RequestImap(2470511) -- box and stool next to gun shop
+------------------------------------- #### END Valentine extras --####
+
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -852,28 +863,20 @@ RequestImap(-1000738568)
 RequestImap(-991619789)
 RequestImap(-799526632)
 RequestImap(1003623269)
-RequestImap(1804593020)
 RequestImap(1325716092)
 RequestImap(-1049500949)
-RequestImap(-1905652203)
-RequestImap(2470511)
 RequestImap(951314072)
 RequestImap(-1878882174)
 RequestImap(724436573)
 RequestImap(-1744253204)
 RequestImap(-2009766528)
 RequestImap(-1781246069)
-RequestImap(610256856)
-RequestImap(-2083943324)
 RequestImap(-159723514)
 RequestImap(-1801047945)
 RequestImap(-590227673)
-RequestImap(1936501508)
-RequestImap(325677491)
 RequestImap(1823159188)
 RequestImap(-407068688)
 RequestImap(1552753100)
-RequestImap(886997475)
 RequestImap(1548242606)
 RequestImap(-555917871)
 RequestImap(1777348822)
