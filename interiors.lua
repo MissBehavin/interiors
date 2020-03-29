@@ -832,6 +832,18 @@ RequestImap(-1617847332) -- sign outside tent version 4
 -- RequestImap(-175048740)  -- SE smoke
 -- RequestImap(-482127039)  -- SE smoke
 ----------------------------------------- ### END ARMADILLO FIRES ###
+
+--------------------- Hole/cabin east of emerald station
+RequestImap(-574996782) -- house shell/front enterence
+RequestImap(1169511062) -- house interior
+RequestImap(-1266106154) -- fence border and wood pile outside house
+RequestImap(-1377975054) -- ground trail to house
+-- RequestImap(-165202905) -- green over hole (no trail)
+-- RequestImap(897624424) -- grass over hole
+-- RequestImap(-1327148782) -- grass over hole
+-- RequestImap(-1965378386) -- grass over hole
+------------------------------------- #### END Hole/cabin east of emerald station --####
+
 RequestImap(666617953)
 RequestImap(-1892595931) 
 RequestImap(-784156210)
@@ -1452,10 +1464,7 @@ RequestImap(-1369880946)
 RequestImap(292369320)
 RequestImap(539566709)
 RequestImap(883579956)
-RequestImap(-574996782)
-RequestImap(1169511062)
 RequestImap(-2111718052)
-RequestImap(-1266106154)
 RequestImap(1192526031)
 RequestImap(1091543855)
 RequestImap(-952533419)
@@ -2294,11 +2303,6 @@ RequestImap(-1997605640)
 RequestImap(2066602358)
 RequestImap(-1374896333)
 RequestImap(441668603)
-RequestImap(-165202905)
-RequestImap(-1377975054)
-RequestImap(897624424)
-RequestImap(-1327148782)
-RequestImap(-1965378386)
 RequestImap(-960397707)
 RequestImap(1424082059)
 RequestImap(-1939038021)
